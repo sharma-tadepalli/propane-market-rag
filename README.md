@@ -1,5 +1,7 @@
 # Propane Market Intelligence — RAG + Forecasting Hybrid
 
+**[📄 View the full notebook in your browser](https://sharma-tadepalli.github.io/propane-market-rag/)** — results, charts, and code, no Jupyter required.
+
 A framework-free Retrieval-Augmented Generation (RAG) system for energy market analysis, built from first principles: **no LangChain, no LlamaIndex** — every component (chunking, embedding, retrieval, grounding, evaluation) is explicit and inspectable.
 
 The assistant answers questions about the U.S. propane market using only a curated document corpus, cites its sources inline, and **declines to answer when the information isn't in the corpus** — verified by negative tests. A companion time-series model forecasts price direction; the RAG layer explains the fundamentals behind the move. *The forecast says WHAT, the RAG explains WHY.*
